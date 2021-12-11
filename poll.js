@@ -1,11 +1,10 @@
-//creates  a poll for your server members to vote on.
-
-
-
 module.exports = {
     name: 'poll',
     description: 'a poll command', 
     async execute(message, args, Discord){
+    
+    
+        if(message.member.permissions.has("ADMINISTRATOR")){
         const { User } = require("discord.js");
 
                     const sayMessage = args.join(" "); 
@@ -21,7 +20,7 @@ module.exports = {
                         await msg.react ('❌')
 
                 }
-        
+        else return message.reply("**hey**, you're not a admin. **you cannot use this command!**")
             }
-         
-
+        }
+        
