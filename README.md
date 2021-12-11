@@ -1,5 +1,6 @@
 # Discord-bot-commands
-Some simple yet complex discord commands for your discord.js bot! 
+Simple commands for your discord.js bot!
+
 
 
 THESE COMMANDS WERE CREATED BY 
@@ -15,6 +16,6 @@ The mute commands needs a role called "mute" for it to work
 you need to make it so that role cannot talk in the channels in your server
 
 
-
+CHANGE FOR PERMS COMING SOON
 
 
