@@ -6,3 +6,4 @@ if(message.member.permissions.has("ADMINISTRATOR")){ /*code for here
 brrrrr*/    
   
 }
+else return message.reply("message for non admins go here") //simply just return a message if the person executing the command is not a admin
