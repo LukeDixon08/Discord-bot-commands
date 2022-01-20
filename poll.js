@@ -21,6 +21,7 @@ module.exports = {
 
                 }
         else return message.reply("**hey**, you're not a admin. **you cannot use this command!**")
-            }
+        message.channel.send(("this command was made by waffles on discord XD ( code sourced from https://github.com/waffles08/Discord-bot-commands/edit/main/poll.js )
+    }
         }
         
